@@ -1,3 +1,12 @@
+import Link from "next/link";
+import Navigation from "./components/Navigation";
+
 export default function Page() {
-  return <hi>Fotel, welcome to the best hotel in the country</hi>;
+  return (
+    <div>
+      <Navigation />
+      <h1>Fotel, Welcome to best hotel in da Country</h1>
+      <Link href="/cabins">Explore luxury cabins</Link>
+    </div>
+  );
 }
