@@ -11,7 +11,7 @@ const josefin = Josefin_Sans({
 export const metadata = {
   // title: "Fotell",
   title: {
-    template: "%s The Fotell",
+    template: "%s / The Fotell",
     default: "Welcome / The fotell",
   },
   description:
@@ -25,8 +25,8 @@ export default function RootLayout({ children }) {
         className={`${josefin.className} bg-primary-950 antialiased text-primary-100 min-h-screen flex flex-col`}
       >
         <Header />
-        <div className=" flex-1 px-8 py-12">
-          <main className=" max-w-7xl mx-auto">{children}</main>
+        <div className=" flex-1 px-8 py-12 grid ">
+          <main className=" max-w-7xl mx-auto w-full">{children}</main>
         </div>
       </body>
     </html>
