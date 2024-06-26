@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "fotell cabins",
+};
+
 const Page = () => {
   return (
     <div>

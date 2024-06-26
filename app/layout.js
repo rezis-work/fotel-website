@@ -3,7 +3,13 @@ import Navigation from "@/app/_components/Navigation";
 import "@/app/_styles/globals.css";
 
 export const metadata = {
-  title: "Fotell",
+  // title: "Fotell",
+  title: {
+    template: "%s The Fotell",
+    default: "Welcome / The fotell",
+  },
+  description:
+    "Luxutious cabin hotel, located in the heart of georgian mountains, surrounded with dark beautiful forrest",
 };
 
 export default function RootLayout({ children }) {
