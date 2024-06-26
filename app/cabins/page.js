@@ -1,5 +1,3 @@
-import Counter from "@/app/_components/Counter";
-
 const Page = () => {
   return (
     <div>
