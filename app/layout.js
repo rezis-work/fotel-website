@@ -1,14 +1,12 @@
-import Navigation from "@/app/_components/Navigation";
-
 import { Josefin_Sans } from "next/font/google";
+
+import "@/app/_styles/globals.css";
+import Header from "./_components/Header";
 
 const josefin = Josefin_Sans({
   subsets: ["latin"],
   display: "swap",
 });
-
-import "@/app/_styles/globals.css";
-import Header from "./_components/Header";
 
 export const metadata = {
   // title: "Fotell",
