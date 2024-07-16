@@ -1,3 +1,4 @@
+import SubmitButton from "@/app/_components/SubmitButtom";
 import { updateReservation } from "@/app/_lib/actions";
 import { getBooking, getCabin, getSettings } from "@/app/_lib/data-service";
 import React from "react";
@@ -50,9 +51,7 @@ const Page = async ({ params }) => {
         </div>
 
         <div className="flex justify-end items-center gap-6">
-          <button className="bg-accent-500 px-8 py-4 text-primary-800 font-semibold hover:bg-accent-600 transition-all disabled:cursor-not-allowed disabled:bg-gray-500 disabled:text-gray-300">
-            Update reservation
-          </button>
+          <SubmitButton text="Update reservation" />
         </div>
       </form>
     </div>
